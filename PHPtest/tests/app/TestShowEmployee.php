@@ -8,7 +8,7 @@ class TestShowEmployee extends CIUnitTestCase
 {
     use ControllerTestTrait;
 
-    public function testIndex()
+    public function testBar()
     {
         $result = $this->withURI('http://localhost:8080/showemployee')
             ->controller(\App\Controllers\ShowEmployee::Class)

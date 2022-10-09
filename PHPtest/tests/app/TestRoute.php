@@ -2,18 +2,8 @@
 
 use CodeIgniter\Test\FeatureTestCase;
 
-class TestData extends FeatureTestCase
+class TestRoute extends FeatureTestCase
 {
-    public function setUp(): void
-    {
-        parent::setUp();
-    }
-
-    public function tearDown(): void
-    {
-        parent::tearDown();
-    }
-
     public function testFoo(){
         $routes = [
             [ 'get', '/', 'Home::index' ]
